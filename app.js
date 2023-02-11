@@ -33,7 +33,7 @@ const convertPlayerDbObjectToResponseObject = (dbObject) => {
 
 const convertMatchDbObjectToResponseObject = (dbObject) => {
   return {
-    MatchId: dbObject.match_id,
+    matchId: dbObject.match_id,
     match: dbObject.match,
     year: dbObject.year,
   };
